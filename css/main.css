@@ -289,7 +289,9 @@ section {
 
 .full-banner-image {
     flex: 0 0 58.333333%;
-    background-image: url('../img/vista.jpg') cover top center;
+    background-image: url('../img/vista.jpg');
+    background-size: cover;
+    background-position: top center;
     min-height: 400px;
 }
 
@@ -336,5 +338,4 @@ section {
     letter-spacing: 1px;
     z-index: 1;
 }
-
 
